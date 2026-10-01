@@ -1,0 +1,83 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+*.manifest
+*.spec
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets (keep folder structure)
+dataset/raw/*
+dataset/processed/*
+!dataset/raw/.gitkeep
+!dataset/processed/.gitkeep
+
+# Generated models (keep folder structure)
+models/local/*
+models/global/*
+!models/local/.gitkeep
+!models/global/.gitkeep
+
+# Generated results (keep folder structure)
+results/metrics/*
+results/figures/*
+results/reports/*
+!results/metrics/.gitkeep
+!results/figures/.gitkeep
+!results/reports/.gitkeep
+
+# Cache and logs
+*.log
+*.cache
+.cache/
+.temp/
+tmp/
+temp/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
